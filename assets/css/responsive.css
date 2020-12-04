@@ -1,0 +1,105 @@
+@media (max-width: 576px) {
+    .left-img {
+        visibility: hidden;
+    }
+
+    .right-img {
+        visibility: hidden;
+    }
+
+    .head-comtent h2 {
+        font-size: 35px;
+    }
+
+    .head-comtent h5 {
+        padding-top: 50px;
+    }
+
+    .btn {
+        padding: 15px 25px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .left-flw-jes {
+        visibility: hidden;
+    }
+
+    .about-head {
+        padding-top: 50px;
+    }
+
+    .right-flw-ros {
+        visibility: hidden;
+    }
+
+    .about-head h2 {
+        font-size: 25px;
+    }
+
+    .about-head p {
+        font-size: 15px;
+    }
+
+    #Procedures {
+        padding: 30px 0px;
+    }
+
+    .proced-head h2 {
+        font-size: 35px;
+    }
+
+    .proced-head p {
+        padding: 30px 50px;
+    }
+
+    .proced-main {
+        padding-top: 15px;
+    }
+
+    .texti-slide-content p {
+        padding: 30px 40px;
+    }
+
+    #team {
+        padding: 40px 0px;
+    }
+
+    .team-head h2 {
+        font-size: 35px;
+    }
+
+    .team-head p {
+        padding: 20px 50px;
+    }
+
+    .appoinment-form-box select {
+        width: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}

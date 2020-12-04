@@ -104,7 +104,7 @@ li {
 
 .head-comtent h2 {
     padding-top: 30px;
-    max-width: 525px;
+/*    max-width: 525px;*/
     font-family: 'Rufina', serif;
     font-size: 60px;
     color: #1e2528;
@@ -113,7 +113,7 @@ li {
 
 .head-comtent p {
     padding-top: 40px;
-    max-width: 500px;
+/*    max-width: 500px;*/
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #263a41;
@@ -347,6 +347,8 @@ a.btn {
     border: 1px solid #e3e6ea;
 }
 
+
+
 .proced-iteam-img img {
     width: 100%;
 }
@@ -496,8 +498,12 @@ a.btn {
     padding: 20px 150px;
 }
 
+.team-main {}
+
 .team-iteam {
     position: relative;
+    padding-top: 30px;
+    transition: 0.3s;
 }
 
 .team-iteam-img {
@@ -556,17 +562,20 @@ a.btn {
     margin: 0 5px;
     height: 30px;
     width: 30px;
+    transition: all linear 0.3s;
 }
 
 .team-iteam-social ul li a:hover {
     background: #ff817e;
     border: none;
     color: #fff;
+    transition: all linear 0.3s;
 }
 
 .team-iteam-social {
     opacity: 0;
     margin-top: -30px;
+    transition: all linear 0.3s;
 }
 
 .team-iteam:hover .team-iteam-social {
@@ -575,6 +584,7 @@ a.btn {
     -webkit-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
+    transition: all linear 0.3s;
 }
 
 /*Team Part End*/
@@ -601,11 +611,13 @@ a.btn {
 }
 
 .appoinment-form {
+    /*
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding-left: 100px;
-    width: 650px;
+*/
+    padding: 50px 100px 0px 100px;
+    /*    width: 650px;*/
 }
 
 .appoinment-form-box {
