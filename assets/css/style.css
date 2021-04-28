@@ -104,7 +104,7 @@ li {
 
 .head-comtent h2 {
     padding-top: 30px;
-/*    max-width: 525px;*/
+    max-width: 600px;
     font-family: 'Rufina', serif;
     font-size: 60px;
     color: #1e2528;
@@ -113,7 +113,7 @@ li {
 
 .head-comtent p {
     padding-top: 40px;
-/*    max-width: 500px;*/
+    max-width: 570px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #263a41;
@@ -812,11 +812,11 @@ a.btn {
     font-weight: 900;
     overflow: hidden;
     line-height: 0.75;
-    color: #b2b0a9;
+    color: #17a2b8;
 }
 
 .kukuri:hover {
-    color: #b2b0a9;
+    color: #ff817e;
 }
 
 .kukuri::after {
