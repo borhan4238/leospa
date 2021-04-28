@@ -25,6 +25,7 @@
 
     .left-flw-jes {
         visibility: hidden;
+        display: none;
     }
 
     .about-head {
