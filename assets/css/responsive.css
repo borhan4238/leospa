@@ -53,7 +53,7 @@
     }
 
     .proced-head p {
-        padding: 30px 50px;
+        padding: 30px 20px;
     }
 
     .proced-main {
@@ -80,7 +80,9 @@
         width: 200px;
     }
 
-
+    .appoinment-form {
+        padding: 20px;
+    }
 
 
 
