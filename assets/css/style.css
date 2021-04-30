@@ -227,6 +227,7 @@ a.btn {
     text-decoration: none;
     border-radius: 30px;
     max-width: 200px;
+    margin-left: 30px;
 }
 
 .main-about-image {
@@ -235,8 +236,15 @@ a.btn {
 }
 
 .about-img .btn:hover {
-    color: #263a41;
+    /*    color: #263a41;*/
+    color: #ffffff;
 }
+
+
+.btn:hover span {
+    color: #ffffff;
+}
+
 
 /*
 .about-img-iteam img {
@@ -345,6 +353,7 @@ a.btn {
 .proced-iteam {
     padding-bottom: 30px;
     border: 1px solid #e3e6ea;
+    transition: all linear 0.3s ease-in-out 0s;
 }
 
 .proced-brd {
@@ -385,11 +394,17 @@ a.btn {
 }
 
 .proced-iteam:hover {
-    box-shadow: 0 0 30px 5px #bfbfbf96;
+    box-shadow: 0 0 15px -5px #0000006e;
+    transition: all linear 0.3s;
 }
 
 .proced-iteam:hover button {
     background: #ff817e;
+    transition: all linear 0.3s;
+}
+
+.proced-iteam:hover .proced-iteam-img img {
+    transform: scale(1.1);
     transition: all linear 0.3s;
 }
 
@@ -401,6 +416,10 @@ a.btn {
 #testimoinal {
     background: #fff9f8;
     padding: 50px 0px;
+}
+
+.testi-slider {
+    cursor: grab;
 }
 
 .slick-slide .slide-content {
