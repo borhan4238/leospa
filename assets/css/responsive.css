@@ -1,3 +1,4 @@
+/* Responsive Smartphone Portrait */
 @media (max-width: 576px) {
     .left-img {
         visibility: hidden;
@@ -119,9 +120,118 @@
 }
 
 
-@media (min-width: 576px) and (max-width: 767px) {}
+
+/* Responsive Smartphone Ladnscape And Above */
+@media (min-width: 576px) and (max-width: 767px) {
+    .left-img {
+        display: none;
+    }
+
+    .right-img img {
+        width: 400px;
+    }
+
+    .head-comtent h5 {
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    .head-comtent h2 {
+        padding-top: 10px;
+        max-width: 245px;
+        font-size: 30px;
+    }
+
+    .head-comtent p {
+        padding-top: 10px;
+        max-width: 310px;
+        font-size: 14px;
+    }
+
+    .right-flw-ros {
+        top: 5%;
+    }
+
+    .left-flw-jes {
+        position: absolute;
+        top: 150px;
+        right: 0;
+    }
+
+    .about-head {
+        padding-top: 80px;
+    }
+
+    .about-head h2 {
+        font-size: 35px;
+    }
+
+    #Procedures {
+        padding: 0;
+    }
+
+    .proced-head p {
+        padding: 10px 50px;
+    }
+
+    .texti-slide-content p {
+        padding: 30px 0px;
+    }
+
+    #testimoinal {
+        padding: 30px 0px;
+        margin-top: 30px;
+    }
+
+    .team-head p {
+        margin: 0;
+        padding: 20px 40px;
+    }
+
+    .team-iteam-content {
+        padding: 10px;
+        width: 125px;
+    }
+
+    .team-iteam-social ul li a {
+        font-size: 10px;
+        line-height: 18px;
+        margin: 0;
+        height: 20px;
+        width: 20px;
+    }
+
+    .team-iteam-content h2 {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .team-iteam:hover .team-iteam-social {
+        margin-top: 0;
+    }
+
+    .appoinment-form {
+        padding: 50px 100px 30px 100px;
+    }
+
+    .contact-head p {
+        padding: 10px 10px;
+    }
+
+    #footer {
+        padding: 0;
+    }
 
 
+
+
+
+
+
+
+}
+
+/* Responsive Tablet Portrait */
 @media (min-width: 768px) and (max-width: 991px) {
     .left-img {
         display: none;
